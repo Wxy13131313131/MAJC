@@ -1,0 +1,180 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "unittest_cases_passed": 16,
+  "legacy_comparison": [
+    {
+      "case": 0,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 3.469446951953614e-16,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 0,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 3.469446951953614e-16,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 1,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 1.0408340855860843e-17,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 1,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 1.0408340855860843e-17,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 2,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 2,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 3,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 3,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 4,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 1.7859591583402334e-10,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 4,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 1.7859591583402334e-10,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 5,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 5,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 2.220446049250313e-16,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 6,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 6,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 7,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 7,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 8,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 8,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 9,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 9,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 10,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 10,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 0.0,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 11,
+      "protocol": "executed_quick",
+      "maximum_probability_difference": 2.4658264319299406e-10,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    },
+    {
+      "case": 11,
+      "protocol": "executed_scale",
+      "maximum_probability_difference": 2.4658264319299406e-10,
+      "original_status": "SOLVED",
+      "extracted_status": "SOLVED"
+    }
+  ],
+  "independent_primal_comparison": "executed_scale and disclosure_v1_1; objective agreement to 7 decimal places in unittest",
+  "optional_torch_models_runtime_tested": false,
+  "paid_calls": 0,
+  "generation_or_training_runs": 0
+}

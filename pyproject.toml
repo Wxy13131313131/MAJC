@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "majc"
+version = "0.1.0"
+description = "Marginal-anchored joint control for token distributions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2"]
+
+[project.optional-dependencies]
+heads = ["torch>=2.5"]
+dev = ["pytest>=8", "build>=1"]
+
+[tool.setuptools]
+py-modules = ["majc", "majc_models"]
+
+[tool.pytest.ini_options]
+testpaths = ["test_majc.py"]

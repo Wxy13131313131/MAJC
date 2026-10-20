@@ -1,0 +1,36 @@
+{
+  "source": "local research workspace; standalone extraction",
+  "date": "2026-10-20",
+  "source_files": [
+    {
+      "path": "single_lookahead_joint_control/minimal_control.py",
+      "sha256": "17876824a9d676b071ffa24adf1057bb92dd16fda87890f4ac60f82f6922e393"
+    },
+    {
+      "path": "single_lookahead_joint_control/minimal_models.py",
+      "sha256": "b23d47bd5edb8605ef4630921a44a312549b9b739c29e206154ef78ea1a0c3c0"
+    },
+    {
+      "path": "single_lookahead_joint_control/ind_c_quick/optimizer.py",
+      "sha256": "fb84b602961afff7dd0fabc32ed51091a0b1c165c71a2b60a3e97057d1bdb006"
+    },
+    {
+      "path": "single_lookahead_joint_control/ind_c_quick/runtime.py",
+      "sha256": "6a8fb099faa8424b6aded13a0bfa39f750c5441d338685302667088027f0468e"
+    },
+    {
+      "path": "single_lookahead_joint_control/c_pair_restore/optimizer.py",
+      "sha256": "87b038517fde52c379b7244b677a64716e6c3fa2f6b65044be3d511ef345f926"
+    },
+    {
+      "path": "single_lookahead_joint_control/ind_c_scale/runtime.py",
+      "sha256": "3f59420f3f09365320aeb8f5cf540c246ea72642f68af1ef54962501eef2af09"
+    }
+  ],
+  "models_change": "weights_only=True checkpoint loading; architecture retained",
+  "historical_files_modified": false,
+  "default_protocol": "executed_scale",
+  "new_numerical_only_protocol": "disclosure_v1_1",
+  "model_weights_included": false,
+  "datasets_or_credentials_included": false
+}
